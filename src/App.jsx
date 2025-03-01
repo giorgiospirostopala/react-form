@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <h1>Lista di articoli</h1>
+      <h1>Articoli</h1>
       <ul>
         {articoli.map((articolo, index) => (
           <li key={index}>{articolo.titolo}</li>
